@@ -69,7 +69,7 @@ def get_weather_icon(icon_code):
 
 # Streamlit user interface
 def main():
-    st.title('Weather Prediction App 🌤️')
+    st.title('Sky Sense 🌤️')
 
     # Input: City name for dynamic weather data
     city = st.text_input("Enter city name:", "")
