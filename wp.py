@@ -2,6 +2,9 @@ import streamlit as st
 import requests
 from PIL import Image
 
+# This is very dynamic process because it is adapting on the conditionals having a rigid prior experience (initial state of a system) and
+# also with the conditionals injected by the user. 
+# It then infers and gives the probability
 
 class WeatherPredictor:
     def __init__(self, conditional_probs):
