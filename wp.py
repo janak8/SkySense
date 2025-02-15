@@ -76,7 +76,7 @@ def main():
 
     # Only fetch weather data if city is provided
     if city:
-        api_key = "0dea85a9d70a0f814fb544d1b910bf33"  
+        api_key = "0dea85a9d70a0f814fb544d1b910bf33"  # need to be a environment variable / using it for quick deployment
         weather_data = fetch_weather_data(city, api_key)
 
         if isinstance(weather_data, str):  # In case of error fetching weather data
