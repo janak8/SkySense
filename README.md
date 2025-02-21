@@ -1,5 +1,30 @@
-# WeatherPrediction
+# SkySense 🌤️
 
-This is very dynamic process because it is adapting on the conditionals having a rigid prior experience (initial state of a system) and also with the conditionals injected by the user. 
-It then infers and gives the probability.
-What is important is that the probable state of any outcome ( which is not observed yet ) is the key here for the most advanced system. This is just a simple deployment but when we look at the system which can infer as well as gives another set of probable state of "why it infered in such way" then the system will be very smart.
+SkySense is a dynamic weather prediction app that leverages **Bayesian inference** to provide accurate, real-time weather forecasts based on user input and environmental data. By asking simple, intuitive questions, SkySense adapts its predictions to the most relevant factors, such as current weather patterns, location, and historical trends. Whether it's predicting rain, wind conditions, or temperature shifts, SkySense delivers personalized, data-driven forecasts without requiring users to input complex prior knowledge.
+
+With its sleek, user-friendly interface, SkySense makes understanding the weather easy and accessible for everyone, anytime, anywhere.
+
+---
+
+## Features
+
+- **Bayesian Inference**: Utilizes Bayesian probability to predict weather outcomes based on conditional probabilities and user confidence.
+- **Real-Time Weather Data**: Fetches current weather conditions from [OpenWeatherMap API](https://openweathermap.org/).
+- **Dynamic Predictions**: Adapts predictions based on user input and current weather conditions.
+- **User-Friendly Interface**: Simple input forms and intuitive design to make weather predictions accessible to everyone.
+
+---
+
+## Demo
+
+Here's a quick demo of SkySense in action:
+
+![SkySense Demo](demo.gif)
+
+---
+
+## Installation
+
+ **Clone the repository** to your local machine:
+   ```bash
+   git clone https://github.com/janak8/SkySense.git
