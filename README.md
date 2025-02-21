@@ -20,11 +20,3 @@ With its sleek, user-friendly interface, SkySense makes understanding the weathe
 Here's a quick demo of SkySense in action:
 
 ![SkySense Demo](demo.gif)
-
----
-
-## Installation
-
- **Clone the repository** to your local machine:
-   ```bash
-   git clone https://github.com/janak8/SkySense.git
